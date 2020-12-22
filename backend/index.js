@@ -18,6 +18,9 @@ app.use( express.json({ extended: true }));
 const port = process.env.PORT || 4000;
 
 // Importar rutas
+app.use('/api/reclutadores', require('./routes/reclutadores'));
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/candidatos', require('./routes/candidatos'));
 
 // arrancar la app
 app.listen(port,  () => {
