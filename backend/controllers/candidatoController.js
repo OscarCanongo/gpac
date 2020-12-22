@@ -18,7 +18,7 @@ exports.createCandidato = async (req, res) => {
         candidato.reclutador = req.reclutador.id;
 
         // guardamos el candidato
-        candidao.save();
+        candidato.save();
         res.json(candidato);
         
     } catch (error) {

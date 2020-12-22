@@ -52,7 +52,7 @@ exports.autenticarUsuario = async (req, res) => {
 // Obtiene que reclutador esta autenticado
 exports.usuarioAutenticado = async (req, res) => {
     try {
-        const reclutador = await reclutador.findById(req.reclutador.id).select('-password');
+        const reclutador = await Reclutador.findById(req.reclutador.id).select('-password');
         res.json({reclutador});
     } catch (error) {
         console.log(error);
