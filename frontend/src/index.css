@@ -102,8 +102,8 @@ a {
   }
 
   aside {
-      background-color: var(--blanco);
-      flex: 0 0 300px;
+      background-color: #1a1c21;
+      flex: 0 0 200px;
   }
   .seccion-principal {
       flex: 1;
