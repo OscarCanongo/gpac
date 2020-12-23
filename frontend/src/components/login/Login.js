@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import AlertaContext from '../../context/alertas/alertaContext';
 import AuthContext from '../../context/autenticacion/authContext';
 import Alerta from '../layout/Alerta';
+import logo from '../../images/gpac1.png';
 
 const Login = (props) => {
 
@@ -63,6 +64,7 @@ const Login = (props) => {
                 alerta = {alerta}
             />
             <div className="contenedor-form sombra-dark">
+                <img class="centrado" src={logo} />
                 <h1 data-cy = "titulo">Iniciar Sesión</h1>
 
                 <form
@@ -89,7 +91,7 @@ const Login = (props) => {
                             type="password"
                             id="password"
                             name="password"
-                            placeholder="Tu Password"
+                            placeholder="Password"
                             value={password}
                             onChange={onChange}
                         />

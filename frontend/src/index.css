@@ -23,13 +23,17 @@ body {
   font-family: var(--textFont);
 }
 
+.centrado{
+  margin:10px auto;
+  display:block;
+}
 
 h1, h2 {
   font-family: var(--headingFont);
   font-weight: 900;
   margin: 0 0 4rem 0;
   text-align: center;
-  color: var(--gris2);
+  color: var(--blanco);
 }
 h1 span {
   font-weight: 400;
@@ -65,11 +69,11 @@ a {
   cursor: pointer;
 }
 .btn-primario {
-  background-color: var(--gris2);
+  background-color: #ff3939;
   color: var(--blanco);
 }
 .btn-primario:hover {
-  background: var(--gris3);
+  background: #733939
 }
 .btn-secundario {
   background-color: var(--gris1);
@@ -289,7 +293,7 @@ aside  {
 }
 
 .form-usuario {
-    background-color: var(--gris2);
+    background-color: #1a1c21;
     height: 100vh;
     min-height: 800px;
     display: flex;
@@ -301,7 +305,7 @@ aside  {
     padding: 5rem 3rem;
     max-width: 500px;
     width: 95%;
-    background-color: var(--blanco);
+    background-color: #24292e;
     border-radius: 1rem;
 }
 
@@ -316,6 +320,7 @@ aside  {
 .campo-form label {
   flex: 0 0 100px;
   font-family: var(--textFont);
+  color: #e1e1e1
 }
 .campo-form input[type="password"],
 .campo-form input[type="email"], 
