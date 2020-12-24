@@ -75,6 +75,32 @@ a {
 .btn-primario:hover {
   background: #733939
 }
+.Button{
+  margin-top: 2rem;
+  font-family: var(--headingFont);
+  padding: 1.5rem;
+  font-size: 1.4;
+  font-weight: 400;
+  border: none;
+  transition: background-color .3s ease;
+  background-color: #1a1c21;
+  color: var(--blanco);
+}
+.btn-aside {
+  margin-top: 2rem;
+  font-family: var(--headingFont);
+  padding: 1.5rem;
+  font-size: 1.4;
+  font-weight: 400;
+  border: none;
+  transition: background-color .3s ease;
+  background-color: #1a1c21;
+  color: var(--blanco);
+}
+.btn-aside:hover {
+  background: #ff3939;
+  cursor: pointer;
+}
 .btn-secundario {
   background-color: var(--gris1);
 }
@@ -114,7 +140,7 @@ a {
 
 /* BARRA LATERAL */
 aside  {
-  padding: 3rem;
+  padding: 0rem;
 }
 
 .formulario-nuevo-proyecto {
@@ -128,13 +154,13 @@ aside  {
 .formulario-nuevo-proyecto .input-text::placeholder{
   color: var(--gris2);
 }
-.proyectos {
-  margin-top: 10rem;
+.candidatos {
+  margin-top: 5rem;
 }
-.listado-proyectos li {
+.listado-candidatos li {
   margin-bottom: 2rem;
 }
-.listado-proyectos li a {
+.listado-candidatos li a {
   font-size: 1.4rem;
   color: var(--gris2);
   line-height: 1.5;
