@@ -53,6 +53,17 @@ a {
   text-decoration: none;
   color: var(--gris2);
 }
+.hour{
+  color: #ffffff;
+  text-align:center;
+  font-size: 200%;
+  font-weight: bold;
+}
+.date{
+  color: #ffffff;
+  text-align:center;
+  font-size: smaller;
+}
 
 /** BOTONES **/
 .btn {
@@ -75,21 +86,10 @@ a {
 .btn-primario:hover {
   background: #733939
 }
-.Button{
-  margin-top: 2rem;
-  font-family: var(--headingFont);
-  padding: 1.5rem;
-  font-size: 1.4;
-  font-weight: 400;
-  border: none;
-  transition: background-color .3s ease;
-  background-color: #1a1c21;
-  color: var(--blanco);
-}
 .btn-aside {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: var(--headingFont);
-  padding: 1.5rem;
+  padding: 0.5rem;
   font-size: 1.4;
   font-weight: 400;
   border: none;
