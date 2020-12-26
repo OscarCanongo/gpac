@@ -86,6 +86,22 @@ a {
 .btn-primario:hover {
   background: #733939
 }
+.btn-form {
+  background-color: #ff3939;
+  color: var(--blanco);
+  margin-left: 1rem;
+  font-family: var(--headingFont);
+  padding: 1rem;
+  font-size: 1.4;
+  font-weight: 550;
+  border-radius: .5rem;
+  border: none;
+  transition: background-color .3s ease;
+}
+.btn-form:hover {
+  background: #ff3939;
+  cursor: pointer;
+}
 .btn-aside {
   margin-top: 1rem;
   font-family: var(--headingFont);
@@ -170,8 +186,8 @@ aside  {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--gris2);
-  padding: 4rem;
+  background-color: #20232b;
+  padding: 0.5rem;
 }
 .nombre-usuario {
   color: var(--blanco);
@@ -333,6 +349,31 @@ aside  {
     width: 95%;
     background-color: #24292e;
     border-radius: 1rem;
+}
+
+.header-form {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.header-form:last-of-type {
+  margin: 0;
+}
+.header-form label {
+  flex: 0 0 100px;
+  font-family: var(--textFont);
+  color: #e1e1e1
+}
+
+.header-form input[type="text"] {
+  background-color: #2b313b;
+  color: #e1e1e1;
+  padding: 1rem;
+  flex: 1;
+}
+
+.header-form ::placeholder {
+  color: #adb0b4;
 }
 
 .campo-form {

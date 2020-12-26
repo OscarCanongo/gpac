@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import Sidebar from '../layout/Sidebar';
-//import Barra from '../layout/Barra';
+import Header from '../layout/Header';
 //import FormTarea from '../tareas/FormTarea';
 //import ListadoTareas from '../tareas/ListadoTareas';
 import AuthContext from '../../context/autenticacion/authContext';
@@ -19,11 +19,8 @@ const Reclutador = () => {
     return ( 
         <div className="contenedor-app">
             <Sidebar />
-            
-
             <div className="seccion-principal">
-                {//<Barra />
-                }
+                <Header />
                 <main>
                     {
                     //<FormTarea />

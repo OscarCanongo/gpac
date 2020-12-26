@@ -32,10 +32,9 @@ const AuthState = props => {
 
         try {
             const respuesta = await clienteAxios.get('/api/auth');
-            // console.log(respuesta);
             dispatch({
                 type: OBTENER_USUARIO,
-                payload: respuesta.data.usuario
+                payload: respuesta.data.reclutador
             });
 
         } catch (error) {
