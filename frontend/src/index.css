@@ -28,7 +28,15 @@ body {
   display:block;
 }
 
-h1, h2 {
+h2{
+  font-family: var(--headingFont);
+  font-weight: 900;
+  text-align: center;
+  color: var(--blanco);
+  margin-left: 1rem;
+}
+
+h1 {
   font-family: var(--headingFont);
   font-weight: 900;
   margin: 0 0 4rem 0;
@@ -42,7 +50,7 @@ h1 {
   font-size: 3rem;
 }
 h2 {
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 ul {
   list-style: none;
@@ -63,6 +71,21 @@ a {
   color: #ffffff;
   text-align:center;
   font-size: smaller;
+}
+
+/** CIRCULOS **/
+.circulo {
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  margin:0px auto;
+  padding:3%;
+  margin-left: 3rem;
 }
 
 /** BOTONES **/
@@ -100,6 +123,22 @@ a {
 }
 .btn-form:hover {
   background: #ff3939;
+  cursor: pointer;
+}
+.btn-subheader {
+  background-color: #4056f4;
+  color: var(--blanco);
+  margin-right: 3rem;
+  font-family: var(--headingFont);
+  padding: 1rem;
+  font-size: 1.4;
+  font-weight: 500;
+  border-radius: .5rem;
+  border: none;
+  transition: background-color .3s ease;
+}
+.btn-subheader:hover {
+  background: #252850;
   cursor: pointer;
 }
 .btn-aside {
@@ -187,6 +226,13 @@ aside  {
   justify-content: space-between;
   align-items: center;
   background-color: #20232b;
+  padding: 0.5rem;
+}
+.app-subheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #24292e;
   padding: 0.5rem;
 }
 .nombre-usuario {

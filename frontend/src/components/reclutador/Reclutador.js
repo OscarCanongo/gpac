@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react';
 import Sidebar from '../layout/Sidebar';
 import Header from '../layout/Header';
-//import FormTarea from '../tareas/FormTarea';
+import SubHeader from '../layout/SubHeader';
 //import ListadoTareas from '../tareas/ListadoTareas';
 import AuthContext from '../../context/autenticacion/authContext';
 import Footer from '../layout/Footer';
@@ -24,7 +24,7 @@ const Reclutador = () => {
                 <Header />
                 <main>
                     {
-                    //<FormTarea />
+                    <SubHeader />
                     }
                     <div className="contenedor-tareas">
                         {
