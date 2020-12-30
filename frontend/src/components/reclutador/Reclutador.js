@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import Sidebar from '../layout/Sidebar';
 import Header from '../layout/Header';
 import SubHeader from '../layout/SubHeader';
-//import ListadoTareas from '../tareas/ListadoTareas';
+import Talentos from './Talentos';
 import AuthContext from '../../context/autenticacion/authContext';
 import Footer from '../layout/Footer';
 
@@ -27,9 +27,7 @@ const Reclutador = () => {
                     <SubHeader />
                     }
                     <div className="contenedor-tareas">
-                        {
-                        //<ListadoTareas />
-                        }
+                        <Talentos/>
                     </div>
                 </main>
                 <Footer/>

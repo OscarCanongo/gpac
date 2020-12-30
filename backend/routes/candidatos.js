@@ -11,7 +11,6 @@ router.post('/',
     auth,
     [
         check('nombre', 'El nombre del candidato es obligatorio').not().isEmpty(),
-        check('reclutador', 'El reclutador es obligatorio').not().isEmpty(),
         check('industria', 'La industria del candidato es obligatoria').not().isEmpty(),
         check('posicion', 'La posición del candidato es obligatorio').not().isEmpty(),
         check('telefono', 'El telefono del candidato es obligatorio').not().isEmpty(),
