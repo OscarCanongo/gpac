@@ -141,6 +141,22 @@ a {
   background: #252850;
   cursor: pointer;
 }
+.btn-talentos {
+  background-color: #34343c;
+  color: var(--blanco);
+  margin-right: 3rem;
+  font-family: var(--headingFont);
+  padding: 1rem;
+  font-size: 1.4;
+  font-weight: 500;
+  border-radius: .5rem;
+  border: 1px solid #d0d0d0;
+  transition: background-color .3s ease;
+}
+.btn-talentos:hover {
+  background: #fd3939;
+  cursor: pointer;
+}
 .btn-aside {
   margin-top: .5rem;
   font-family: var(--headingFont);
@@ -188,6 +204,7 @@ a {
   }
   .seccion-principal {
       flex: 1;
+      background-color: #24292e;
   }
 
 }
@@ -254,22 +271,23 @@ aside  {
 /**FOOTER **/
 
 .footer{
-  margin-top: 0rem;
-  padding: 0rem;
-  background-color: #1a1c21;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: #20232b;
+
 }
 .footer-left{
   float: left;
   color: #636c67;
+  font-size: small;
+  padding-left: 1rem;
 }
 .footer-right{
   float: right;
+  padding-right: 1rem;
   color: #ffffff;
+  font-size: small;
 }
 .footer-right:hover {
   cursor: pointer;
@@ -299,12 +317,11 @@ aside  {
   width: 100%;
 }
 
-/** TAREAS LISTADO **/
-.contenedor-tareas {
-  padding: 4rem;
+/** TALENTOSLISTADO **/
+.contenedor-talentos {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
-
-
 
 .listado-tareas {
   max-width: 600px;
@@ -503,3 +520,4 @@ aside  {
   background-color: rgb(230, 78, 78);
   color: var(--blanco);
 }
+

@@ -17,7 +17,8 @@ const Reclutador = () => {
         // eslint-disable-next-line
     }, [])
 
-    return ( 
+    return (
+        <> 
         <div className="contenedor-app">
             <Sidebar />
             <div className="seccion-principal">
@@ -26,13 +27,14 @@ const Reclutador = () => {
                     {
                     <SubHeader />
                     }
-                    <div className="contenedor-tareas">
+                    <div className="contenedor-talentos">
                         <Talentos/>
                     </div>
                 </main>
-                <Footer/>
             </div>
         </div>
+        <Footer/>
+        </>
      );
 }
  
