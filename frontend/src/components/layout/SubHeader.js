@@ -30,7 +30,7 @@ const Header = () => {
                     value="Add new talent &#43;"
                     onClick={ () => {
                         //cerrarSesion();
-                        history.push('#');
+                        history.push('/nuevo-talento');
                     }} 
                 />    
             </nav>

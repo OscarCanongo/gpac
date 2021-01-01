@@ -14,11 +14,12 @@ const Login = (props) => {
     const authContext = useContext(AuthContext);
     const { msg, autenticado, iniciarSesion } = authContext;
 
-      // En caso de que el password o usuario no exista
       useEffect(() => {
         if(autenticado) {
             props.history.push('/reclutador');
         }
+
+        // En caso de que el password o usuario no exista
 
         if(msg) {
             mostrarAlerta(msg.msg, msg.categoria);

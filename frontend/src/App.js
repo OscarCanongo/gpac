@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Login from './components/login/Login';
 import Reclutador from './components/reclutador/Reclutador';
+import NuevoTalento from './components/nuevoTalento/NuevoTalento';
 import TalentoState from './context/talentos/talentosState';
 import AlertaState from './context/alertas/alertaState';
 import AuthState from './context/autenticacion/authState';
@@ -22,6 +23,7 @@ function App() {
                 <Switch>
                     <Route exact path="/" component={Login} />
                     <Route exact path="/reclutador" component={Reclutador} />
+                    <Route exact path="/nuevo-talento" component={NuevoTalento} />
                 </Switch>
             </Router>
           </AuthState>
