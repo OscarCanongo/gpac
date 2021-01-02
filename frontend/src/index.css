@@ -125,6 +125,25 @@ a {
   background: #ff3939;
   cursor: pointer;
 }
+.btn-back {
+  background-color: #ff3939;
+  color: var(--blanco);
+  margin-left: 1rem;
+  font-family: var(--textFont);
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1;
+  font-weight: 250;
+  border-radius: .5rem;
+  border: none;
+  transition: background-color .3s ease;
+}
+.btn-back:hover {
+  background: #ff3939;
+  cursor: pointer;
+}
 .btn-subheader {
   background-color: #4056f4;
   color: var(--blanco);
